@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+.form-select {
+  width: 60%;
+}
+.container {
+  margin: 50px 25%;
+}
+.state {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {
+    background-color: black;
+    left: 400px;
+    color: white;
+  }
+  to {
+    background-color: white;
+    left: 0px;
+    color: black;
+  }
+}
+.city {
+  position: relative;
+  animation-name: example2;
+  animation-duration: 2s;
+}
+@keyframes example2 {
+  from {
+    background-color: black;
+    left: 400px;
+    color: white;
+  }
+  to {
+    background-color: white;
+    left: 0px;
+    color: black;
+  }
+}
